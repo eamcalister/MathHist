@@ -1,5 +1,7 @@
 import Mathlib
 
+/-!-/
+
 def S : ℕ → ℕ
   | 0 => 0
   | Nat.succ n => S n + Nat.succ n
